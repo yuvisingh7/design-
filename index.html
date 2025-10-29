@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interior Design</title>
-    
-    <!-- Correct CSS Link -->
+    <title>Dream Interiors</title>
+
+    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Google Fonts Example -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-    <!-- Optional: Animation library -->
+    <!-- Animation Library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
@@ -26,25 +23,50 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero">
+    <section id="hero" class="animate__animated animate__fadeIn">
         <h1 class="animate__animated animate__fadeInDown">Welcome to Dream Interiors</h1>
-        <p class="animate__animated animate__fadeInUp">Creating beautiful spaces for your life</p>
+        <p class="animate__animated animate__fadeInUp">
+            Transforming spaces into beautiful, functional designs
+        </p>
+        <a href="about.html" class="btn animate__animated animate__bounceIn">Learn More</a>
     </section>
 
-    <!-- Services / Features Section -->
-    <section id="services">
+    <!-- Services Section -->
+    <section id="services" class="animate__animated animate__fadeIn">
         <h2>Our Services</h2>
-        <div class="service-box">
+        <div class="service-box animate__animated animate__zoomIn">
             <h3>Residential Design</h3>
-            <p>Beautiful interior design for homes.</p>
+            <p>Beautiful interiors for your home.</p>
         </div>
-        <div class="service-box">
+        <div class="service-box animate__animated animate__zoomIn animate__delay-1s">
             <h3>Commercial Design</h3>
-            <p>Elegant and functional office spaces.</p>
+            <p>Elegant office & commercial spaces.</p>
+        </div>
+        <div class="service-box animate__animated animate__zoomIn animate__delay-2s">
+            <h3>Consulting</h3>
+            <p>Professional interior design guidance.</p>
         </div>
     </section>
 
-    <!-- Correct JS Link -->
+    <!-- Reviews Section -->
+    <section id="reviews" class="animate__animated animate__fadeIn">
+        <h2>What Our Clients Say</h2>
+        <div class="review-box animate__animated animate__fadeInUp">
+            <p>"Amazing design team! Highly recommend."</p>
+            <h4>– Client A</h4>
+        </div>
+        <div class="review-box animate__animated animate__fadeInUp animate__delay-1s">
+            <p>"Professional and creative interior designers."</p>
+            <h4>– Client B</h4>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dream Interiors. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS Script -->
     <script src="script.js"></script>
 </body>
 </html>
