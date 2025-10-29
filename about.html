@@ -3,54 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Dream Interiors</title>
+    <title>Dream Interiors</title>
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Animation Library -->
+    <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- Optional: Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
 
-    <!-- About Section -->
-    <section id="about" class="animate__animated animate__fadeIn">
-        <div class="container">
-            <h1 class="animate__animated animate__fadeInDown">About Dream Interiors</h1>
-            <p class="animate__animated animate__fadeInUp">
-                We are passionate interior designers creating modern, elegant, and functional spaces
-                for homes and offices. Our team ensures every detail is perfect.
-            </p>
+<!-- Navigation -->
+<nav class="animate__animated animate__fadeInDown">
+    <div class="logo">Dream Interiors</div>
+    <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
 
-            <div class="team">
-                <div class="member animate__animated animate__zoomIn">
-                    <img src="images/member1.jpg" alt="Team Member 1">
-                    <h3>Yuvi Singh</h3>
-                    <p>Lead Designer</p>
-                </div>
-                <div class="member animate__animated animate__zoomIn animate__delay-1s">
-                    <img src="images/member2.jpg" alt="Team Member 2">
-                    <h3>Jane Doe</h3>
-                    <p>Project Manager</p>
-                </div>
-                <div class="member animate__animated animate__zoomIn animate__delay-2s">
-                    <img src="images/member3.jpg" alt="Team Member 3">
-                    <h3>John Smith</h3>
-                    <p>Creative Director</p>
-                </div>
-            </div>
+<!-- Hero Section -->
+<section id="hero">
+    <div class="hero-content animate__animated animate__fadeInUp">
+        <h1 class="animate__animated animate__fadeInDown">Transform Your Space</h1>
+        <p class="animate__animated animate__fadeInUp animate__delay-1s">
+            Modern, Elegant & Functional Interior Designs for Home and Office
+        </p>
+        <a href="about.html" class="btn animate__animated animate__bounceIn animate__delay-2s">Learn More</a>
+    </div>
+</section>
+
+<!-- Services / Features -->
+<section id="services">
+    <h2 class="animate__animated animate__fadeIn">Our Services</h2>
+    <div class="services-container">
+        <div class="service animate__animated animate__zoomIn">
+            <i class="fas fa-home fa-3x"></i>
+            <h3>Residential Design</h3>
+            <p>Beautiful interior design for your home.</p>
         </div>
-    </section>
+        <div class="service animate__animated animate__zoomIn animate__delay-1s">
+            <i class="fas fa-building fa-3x"></i>
+            <h3>Commercial Design</h3>
+            <p>Elegant and functional office spaces.</p>
+        </div>
+        <div class="service animate__animated animate__zoomIn animate__delay-2s">
+            <i class="fas fa-lightbulb fa-3x"></i>
+            <h3>Consulting</h3>
+            <p>Professional interior design guidance.</p>
+        </div>
+    </div>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Dream Interiors. All Rights Reser
+<!-- Reviews Section -->
+<section id="reviews">
+    <h2 class="animate__animated animate__fadeIn">Client Reviews</h2>
+    <div class="reviews-container">
+        <div class="review animate__animated animate__fadeInUp">
+            <p>"Absolutely stunning work! Highly recommend."</p>
+            <h4>- Client A</h4>
+        </div>
+        <div class="review animate__animated animate__fadeInUp animate__delay-1s">
+            <p>"Professional team and very creative designs."</p>
+            <h4>- Client B</h4>
+        </div>
+        <div class="review animate__animated animate__fadeInUp animate__delay-2s">
+            <p>"Transformed our office into a modern workspace."</p>
+            <h4>- Client C</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Dream Interiors. All Rights Reserved.</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
+</body>
+</html>
